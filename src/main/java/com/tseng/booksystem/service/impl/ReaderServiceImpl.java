@@ -62,6 +62,4 @@ public class ReaderServiceImpl implements ReaderService {
         ReaderType readerType = readerMapper.selectReaderTypeById(id);
         return ResponseResult.okResult(readerType);
     }
-
-
 }
